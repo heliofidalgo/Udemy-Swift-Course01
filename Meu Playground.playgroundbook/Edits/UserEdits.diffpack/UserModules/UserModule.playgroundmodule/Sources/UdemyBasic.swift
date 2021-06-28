@@ -986,6 +986,74 @@ import UIKit
 //  pessoa2.retornInfo()
 
 //----- O.O. HERANÇA! E SUB CLASSES ----------------
+// Override (sobrepor) / Super (acesso a hierarquia superior)
+
+//  class SerVivo {
+//      var nome = ""
+//      var idade = 0
+//      
+//      func descricao()-> String {
+//          return "Ser Vivo"
+//      }
+//      
+//  }
+//  class Ave : SerVivo {
+//      var quantidadeDeAsas = 0
+////      override func descricao() {
+////          print("Esta e a classe Ave")
+////      }
+//      override func descricao() -> String {
+//          return "\(super.descricao()) / Ave"
+//      }
+//  }
+//  class Galinha : Ave{
+//      var quantidadeDePenas = 0
+////      override func descricao() {
+////          print("Essa e a classe Galinha")
+////      }
+//      override func descricao() -> String {
+//          return "\(super.descricao()) /Galinha"
+//      }
+//      
+//  }
+//  
+//  var galinha = Galinha()
+////galinha.descricao()
+//  
+//  var passarinho = Ave()
+////passarinho.descricao()
 
 
+// HERANCA / subclasses / FINAL
+
+//  class SerVivo {
+//      var nome = ""
+//      var idade = 0
+//      
+//      final func descricao()-> String {
+//          return "Ser Vivo"
+//      }
+//      
+//  }
+//  class Ave : SerVivo {
+//      var quantidadeDeAsas = 0
+//      
+//      override func descricao() -> String {
+//          return "\(super.descricao()) / Ave"
+//      }
+//  }
+//  class Galinha : Ave{
+//      var quantidadeDePenas = 0
+//      
+//      override func descricao() -> String {
+//          return "\(super.descricao()) /Galinha"
+//      }
+//      
+//  }
+//  
+//  var galinha = Galinha()
+////galinha.descricao()
+//  
+//  var passarinho = Ave()
+////passarinho.descricao()
 
